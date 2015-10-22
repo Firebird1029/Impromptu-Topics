@@ -91,7 +91,9 @@ var topics = [
 	"Violence on TV",
 	"Uniforms in school",
 	"Three things you do well"
-]
+];
+var counter = topics.length;
+$("span#counter").text(counter);
 
 $("button").click(function () {
 	$("#output").empty();
